@@ -1,0 +1,81 @@
+# ============================================================
+#  Clyvo Vet / PetFlow — Git ignore
+# ============================================================
+
+# --- Variáveis de ambiente e segredos ---
+.env
+.env.*
+!.env.example
+docker/.env
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+credentials.json
+
+# --- Java / Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+*.class
+*.jar
+!/.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+replay_pid*
+
+# --- Spring Boot (overrides locais) ---
+application-local.properties
+application-local.yml
+application-*.local.properties
+application-*.local.yml
+
+# --- Docker / Oracle (dados persistentes) ---
+docker/oradata/
+docker/oradata/**
+**/oradata/
+*.log
+
+# --- IDEs ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# --- SO ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Logs e temporários ---
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.zip
+*.tar.gz
+
+# --- Azure CLI (cache local) ---
+.azure/
