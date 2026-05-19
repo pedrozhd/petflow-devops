@@ -10,6 +10,7 @@
 #  ssh azureuser@IP_PUBLICO
 #  Senha: PetFlow@2026!
 #
+#  bash /c/Users/StartSe/devops/scenes/c2.sh
 # ------------------------------------------------------------
 #  >>> A PARTIR DAQUI, VOCE ESTA DENTRO DA VM <<<
 # ------------------------------------------------------------
