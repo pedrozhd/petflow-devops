@@ -41,7 +41,6 @@ services:
       dockerfile: Dockerfile
     container_name: api-clyvovet
     environment:
-      - PORT=8080
       - SPRING_DATASOURCE_URL=${SPRING_DATASOURCE_URL}
       - SPRING_DATASOURCE_USERNAME=${SPRING_DATASOURCE_USERNAME}
       - SPRING_DATASOURCE_PASSWORD=${SPRING_DATASOURCE_PASSWORD}
