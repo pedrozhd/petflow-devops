@@ -6,6 +6,7 @@
 #
 #  >>> VOCE AINDA ESTA DENTRO DA VM <<<
 #
+#  bash /c/Users/StartSe/devops/scenes/c3.sh
 
 echo ""
 echo "============================================="
