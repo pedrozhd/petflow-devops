@@ -9,6 +9,7 @@
 #  IMPORTANTE: Substitua IP_PUBLICO pelo IP real da VM
 #  O token JWT expira em 15 minutos. Se expirar, faca login novamente.
 #
+#  bash /c/Users/StartSe/devops/scenes/c4.sh
 
 IP_PUBLICO=$(curl -s ifconfig.me)
 
